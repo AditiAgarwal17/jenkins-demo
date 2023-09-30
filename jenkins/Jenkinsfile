@@ -23,7 +23,7 @@ pipeline {
         }
     }
     tools { 
-        maven 3.9.4 
-        jdk jdk8
+        maven '3.9.4'
+        jdk 'jdk8'
     }
 }
